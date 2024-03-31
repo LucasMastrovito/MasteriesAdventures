@@ -1,0 +1,67 @@
+.randomizer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+}
+
+.btn-active {
+    filter: grayscale(0%);
+}
+
+.btn-desactive {
+    filter: grayscale(100%);
+}
+
+.role-btn {
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #0A1428;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-role {
+    height: 5vh;
+    width: 5vh;
+    cursor: pointer;
+    border: #0A1428 solid;
+    background-color: #13264b;
+    border-radius: 50%;
+    padding: 1vh;
+}
+
+.img-role:hover {
+    background-color: #1e3a72;
+}
+
+.champs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7vh;
+}
+
+.btn-random {
+    border: 1px gold solid;
+    border-radius: 12px;
+    padding: 1vh;
+    font-size: 3vh;
+    font-family: LOL;
+    color: #bebebe;
+    background-image: linear-gradient(#173163, #122449);
+    cursor: pointer;
+}
+
+.btn-random:hover {
+    background-image: linear-gradient(#2e60bd, #264d9c);
+}
+
+.btn-random:active {
+    background-image: linear-gradient(#0d1b35, #04070e);
+}

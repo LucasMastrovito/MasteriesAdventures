@@ -1,0 +1,94 @@
+@font-face {
+  font-family: LOL;
+  src: url(Assets/BeaufortforLOL-Regular.otf);
+}
+
+.content {
+  min-height: 85vh;
+}
+
+.header {
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.footer {
+  height: 5vh;
+}
+
+p, h1, h2, h3 {
+  color: #F0E6D2;
+  font-family: LOL;
+}
+
+.title {
+  color: #bebebe;
+  font-size: 6vh;
+  text-align: center;
+}
+
+.title-img {
+  margin-top: -5vh;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  background-image: linear-gradient(to bottom right, #191d21, #1c2126);
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.app .row {
+  outline: 1px dotted grey;
+}
+
+.app .row.header {
+  flex: 0 1 auto;
+}
+
+.app .row.content {
+  flex: 1 1 auto;
+}
+
+.app .row.footer {
+  flex: 0 1 auto;
+}
+
+.home-container {
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 14vh;
+}
+
+.tuto {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.navbar-container {
+  background-color: #010A13;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  height: 100%;
+}
+
+.home-btn:hover {
+  cursor: pointer;
+}
