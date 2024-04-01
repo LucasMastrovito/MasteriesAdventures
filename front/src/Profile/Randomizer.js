@@ -10,7 +10,7 @@ function GetRandom(props) {
     props = props.props;
     let [cards, setCards] = useState([]);
     let index = -1;
-    const url = "http://localhost:5000/api/masteries/" + props.puuid + "/" + props.region;
+    const url = "https://masteriesadventures.onrender.com/api/masteries/" + props.puuid + "/" + props.region;
     const [data, setData] = useState([{}]);
 
     useEffect(() => {

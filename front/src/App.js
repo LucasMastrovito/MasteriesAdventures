@@ -13,7 +13,7 @@ function App() {
       <div className='row content'>
         <Routes>
           <Route path='/' element={<Home></Home>} />
-          <Route path='/login' element={<h1> yo </h1>} />
+          <Route path='/defaultsite' element={<Home></Home>} />
           <Route path='/profile/:pseudo' element={<Profile></Profile>} />
         </Routes>
       </div>
