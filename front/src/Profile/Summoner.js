@@ -5,7 +5,7 @@ import './Summoner.css';
 
 function GetScore(props) {
     props = props.props;
-    const url = "http://localhost:5000/api/score/" + props.puuid + "/" + props.region;
+    const url = "https://masteriesadventures.onrender.com/api/score/" + props.puuid + "/" + props.region;
     const [data, setData] = useState();
     const [isLoading, setLoading] = useState(true);
 
@@ -31,7 +31,7 @@ function GetScore(props) {
 
 function GetSummoner(props) {
     props = props.props;
-    const url = "http://localhost:5000/api/summoner/" + props.puuid + "/" + props.region;
+    const url = "https://masteriesadventures.onrender.com/api/summoner/" + props.puuid + "/" + props.region;
     const [data, setData] = useState({});
     const [isLoading, setLoading] = useState(true);
 

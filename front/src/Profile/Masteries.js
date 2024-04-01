@@ -5,7 +5,7 @@ import ChampionCard from "./ChampionCard";
 import './ChampionCard.css';
 
 function GetMasteries(props) {
-    const url = "http://localhost:5000/api/masteries/" + props.puuid + "/" + props.region;
+    const url = "https://masteriesadventures.onrender.com/api/masteries/" + props.puuid + "/" + props.region;
     const [data, setData] = useState([{}]);
     const cards = [];
     useEffect(() => {
