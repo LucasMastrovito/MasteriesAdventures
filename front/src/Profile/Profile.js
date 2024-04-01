@@ -197,7 +197,7 @@ function getRegion(region) {
 }
 
 function GetName() {
-    const url = /* "http://localhost:5000/api/account/" */ API_URL + account.global + "/" + account.gameName + "/" + account.tagLine;
+    const url = "https://masteriesadventures.onrender.com/api/account/" + account.global + "/" + account.gameName + "/" + account.tagLine;
     const [data, setData] = useState({});
     const [isLoading, setLoading] = useState(true);
     useEffect(() => {
