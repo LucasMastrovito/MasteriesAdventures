@@ -12,7 +12,6 @@ function Navbar() {
     return (
         <div className="navbar-container">
             <h1 className="home-btn" onClick={onClickHome}>MasteriesAdventures</h1>
-            <Search></Search>
         </div>
     )
 }
