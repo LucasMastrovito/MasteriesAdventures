@@ -4,13 +4,14 @@ import './Search.css';
 function Search() {
     const navigate = useNavigate();
     const handleSubmit = (event) => {
+        console.log(event.target)
         navigate('/profile/' + event.target[0].value + '-' + event.target[1].value + '-' + event.target[2].value);
     }
     return (
         <div className="search-container">
             <form className="home-search" onSubmit={handleSubmit}>
                 <label>
-                <select className="custom-select" name="Region">
+                <select className="custom-select">
                     <option className="select-selected" value="euw1">EUW</option>
                     <option className="select-selected" value="eun1">EUN</option>
                     <option className="select-selected" value="br1">BR</option>
