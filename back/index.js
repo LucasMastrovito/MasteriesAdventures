@@ -6,7 +6,7 @@ var cors = require('cors');
 app.use(cors());
 
 //const riotUrl = ".api.riotgames.com/"
-const apiKey = "RGAPI-f66d4608-160b-4437-bf88-346b3f65bf40";
+const apiKey = "RGAPI-cc8a0f81-d0db-4baa-9fc9-ec9207e1e962";
 let account = {};
 let masteries = {};
 let summoner = {};
