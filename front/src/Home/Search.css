@@ -97,7 +97,7 @@ textarea:focus, input:focus {
     width: 24px;
     display: flex;
     align-items: center;
-    margin-right: 16px;
+    margin-right: 3vw;
     font-size: 17px;
     background-color: #ffffff00;
     border: none;
