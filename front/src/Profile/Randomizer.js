@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import ChampionCard from './ChampionCard';
+import ChampionRand from './ChampionRand';
 import './Randomizer.css';
 import axios from 'axios';
 
@@ -66,7 +66,7 @@ function GetRandom(props) {
             for (let i = 0; i < 3; i++) {
                 if (filteredChampions.length > 0) {
                     let champ = getRandomChampion();
-                    let newCard = <ChampionCard key={i} data={data[index]} champion={champ}></ChampionCard>;
+                    let newCard = <ChampionRand key={i} data={data[index]} champion={champ}></ChampionRand>;
                     setCards(prevArray => [...prevArray, newCard]);
                 }
             }
