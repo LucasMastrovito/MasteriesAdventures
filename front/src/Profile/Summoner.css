@@ -5,6 +5,8 @@
 .icon {
     border-radius: 50%;
     border: 2px solid #C89B3C;
+    max-width: 50%;
+    height: 50%;
 }
 
 .container {

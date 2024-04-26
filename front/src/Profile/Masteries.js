@@ -4,9 +4,9 @@ import axios from "axios";
 import ChampionCard from "./ChampionCard";
 import './ChampionCard.css';
 
-function GetCards(props, data) {
-    /* props = props.props;
-    data = data.data; */
+/* function GetCards(props, data) {
+    props = props.props;
+    data = data.data;
     console.log(props)
     const cards = [];
     for (let i = 0; data[i]; i++) {
@@ -21,12 +21,13 @@ function GetCards(props, data) {
             <div className="cards-container">{cards}</div>
         </div>
     );
-}
+} */
 
 function GetMasteries(props) {
     const url = "https://masteriesadventures.onrender.com/api/masteries/" + props.puuid + "/" + props.region;
     const [data, setData] = useState([{}]);
     const [isLoading, setLoading] = useState(true);
+    const cards = [];
 
     useEffect(() => {
         const fetchData = async() => {
@@ -38,12 +39,19 @@ function GetMasteries(props) {
        };
        fetchData();
     }, [url]);
+    for (let i = 0; data[i]; i++) {
+        if (data[i].championId !== undefined) {
+            let id = data[i].championId;
+            let index = props.champions.findIndex(champion => champion.id === id);
+            cards.push(<ChampionCard key={i} data={data[i]} champion={props.champions[index]}></ChampionCard>);
+        }
+    }
     if (isLoading) {
         return (<div><p>Loading...</p></div>);
     } else {
         return (
-            <div>
-                <GetCards props={props} data={data}></GetCards>
+            <div className="masteries-container">
+                <div className="cards-container">{cards}</div>
             </div>
         )
     }
