@@ -102,6 +102,7 @@ textarea:focus, input:focus {
     background-color: #ffffff00;
     border: none;
     cursor: pointer;
+    color: wheat;
 }
 
 /* .searchbutton:hover {
