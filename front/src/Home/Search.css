@@ -4,6 +4,8 @@
     align-items: center;
     align-content: center;
     flex-direction: row;
+    height: 5vh;
+    width: 100%;
 }
 
 .home-search {
@@ -16,6 +18,7 @@
     height: 6vh;
     display: flex;
     align-items: center;
+    max-width: 80%;
 }
 
 .custom-select {
@@ -98,7 +101,7 @@ textarea:focus, input:focus {
     display: flex;
     align-items: center;
     margin-right: 3vw;
-    font-size: 17px;
+    font-size: 80%;
     background-color: #ffffff00;
     border: none;
     cursor: pointer;
@@ -120,4 +123,11 @@ textarea:focus, input:focus {
     input[type=text] {
       border: 1px solid #ccc;
     }
+  }
+
+  .label-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
   }

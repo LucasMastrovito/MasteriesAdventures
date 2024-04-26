@@ -10,7 +10,7 @@ function Search() {
     return (
         <div className="search-container">
             <form className="home-search" onSubmit={handleSubmit}>
-                <label>
+                <label className="label-search">
                 <select className="custom-select">
                     <option className="select-selected" value="euw1">EUW</option>
                     <option className="select-selected" value="eun1">EUN</option>
