@@ -100,12 +100,11 @@ textarea:focus, input:focus {
     width: 24px;
     display: flex;
     align-items: center;
-    margin-right: 3vw;
+    margin-right: 1vw;
     font-size: 80%;
     background-color: #ffffff00;
     border: none;
     cursor: pointer;
-    color: wheat;
 }
 
 /* .searchbutton:hover {
@@ -117,7 +116,7 @@ textarea:focus, input:focus {
       float: none;
       display: block;
       text-align: left;
-      width: 100%;
+      width: 30%;
       margin: 0;
       padding: 14px;
     }
@@ -132,3 +131,15 @@ textarea:focus, input:focus {
     align-items: center;
     justify-content: flex-start;
   }
+
+@media screen and (max-width: 1100px) {
+  .search-img {
+    max-width: 4vw;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+  .search-img {
+    max-width: 2vw;
+  }
+}

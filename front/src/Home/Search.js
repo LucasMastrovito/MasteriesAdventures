@@ -33,7 +33,7 @@ function Search() {
                     <h2 className="text-large" style={{display: 'inline-block'}}>#</h2>
                     <input className="searchbar" style={{width: '5vw'}} type="text" placeholder="Tag"></input>
                 </label>
-                    <button className="searchbutton" type="submit">Search</button>
+                    <button className="searchbutton" type="submit"><img className="search-img" alt="" src="search.png" /></button>
             </form>
         </div>
     )
