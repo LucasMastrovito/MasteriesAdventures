@@ -110,7 +110,11 @@ textarea:focus, input:focus {
 /* .searchbutton:hover {
   background-color: rgba(204, 204, 204, 0.5);
 } */
-
+/* 
+input::placeholder {
+  text-align: center;
+}
+ */
 @media screen and (max-width: 600px) {
     input[type=text] {
       float: none;
