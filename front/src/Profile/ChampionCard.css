@@ -30,7 +30,6 @@
     width: 80%;
     box-sizing: border-box;
     margin: 0 auto;
-    margin-top: 3vh;
 }
 
 .mastery {
@@ -72,4 +71,5 @@
     position: relative;
     top: -3vh;
     width: 100%;
+    margin-top: 3vh;
 }
