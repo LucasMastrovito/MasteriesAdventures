@@ -16,6 +16,7 @@
 
 .footer {
   height: 5vh;
+  overflow: hidden;
 }
 
 .title {
@@ -116,4 +117,8 @@ body {
 
 .home-btn:hover {
   cursor: pointer;
+}
+
+.text-large {
+  font-size: large;
 }

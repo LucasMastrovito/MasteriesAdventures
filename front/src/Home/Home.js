@@ -8,11 +8,11 @@ function Home() {
         <div className="home-container">
             <Search apiKey={apiKey}></Search>
             <div className="tuto">
-                <h1>What's MasteriesAdventures ?</h1>
-                <h3>MasteriesAdventures is a mini-game in which the aim is to climb all the champions' masteries in the game.</h3>
-                <h1>How does it works ?</h1>
-                <h3>Log in with your Riot Games account, then go to your profile page. Use the random champion draw to select the roles available, then choose 1 champion from the 3 available.</h3>
-                <h3>You'll only be able to change champions once you've reached a new mastery level, or once you've tokenized your chosen champion.</h3>
+                <h1 className="text-large">What's MasteriesAdventures ?</h1>
+                <h3 className="text-large">MasteriesAdventures is a mini-game in which the aim is to climb all the champions' masteries in the game.</h3>
+                <h1 className="text-large">How does it works ?</h1>
+                <h3 className="text-large">Log in with your Riot Games account, then go to your profile page. Use the random champion draw to select the roles available, then choose 1 champion from the 3 available.</h3>
+                <h3 className="text-large">You'll only be able to change champions once you've reached a new mastery level, or once you've tokenized your chosen champion.</h3>
             </div>
         </div>
     )

@@ -30,7 +30,7 @@ function Search() {
                     <option className="select-selected" value="vn2">VN</option>
                 </select>
                     <input className="searchbar" type="text" placeholder="Pseudo"></input>
-                    <h2 style={{display: 'inline-block'}}>#</h2>
+                    <h2 className="text-large" style={{display: 'inline-block'}}>#</h2>
                     <input className="searchbar" style={{width: '5vw'}} type="text" placeholder="Tag"></input>
                 </label>
                     <button className="searchbutton" type="submit">Search</button>
