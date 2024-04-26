@@ -34,6 +34,8 @@
     background-color: #13264b;
     border-radius: 50%;
     padding: 1vh;
+    max-width: 5vw;
+    height: 50%;
 }
 
 .img-role:hover {
@@ -45,6 +47,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 7vh;
+    padding-bottom: 7vh;
 }
 
 .btn-random {
@@ -56,6 +59,7 @@
     color: #bebebe;
     background-image: linear-gradient(#173163, #122449);
     cursor: pointer;
+    font-size: max(3vw);
 }
 
 .btn-random:hover {
